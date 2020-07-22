@@ -1,0 +1,23 @@
+appName: develop
+serverAddr: :8889
+logPath:
+
+mysql:
+  host:     127.0.0.1
+  user:     root
+  password: root
+  port:     3306
+  database: root
+  charset: utf8mb4
+  maxactive: 100
+  maxidle: 100
+  logdebug: true
+
+redis:
+  host: 127.0.0.1
+  password:
+  port: 6379
+  maxactive: 100
+  maxidle: 100
+  idletimeout: 0
+  database: 0
